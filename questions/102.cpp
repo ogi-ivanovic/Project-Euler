@@ -58,7 +58,6 @@ bool containsOrigin(triangle *t) {
 
 int main(void) {
   vector<triangle*> triangles;
-  vector<triangle*> containingOrigin;
 
   ifstream tri;
   tri.open ("p102_triangles.txt");
